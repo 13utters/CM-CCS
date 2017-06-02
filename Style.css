@@ -446,3 +446,22 @@ i.icon.icon-chat-subscriber {
     background-position: center center;
 }
 /* End Herkul */
+
+/* DenisJ */
+#user-rollover.id-5726279 .badge-box > i.bdg
+{
+    border-radius:       6px;
+    background-image:    url("http://dinik.cz/plug/herkul.gif");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+[data-cid^="5726279"] .badge-box .bdg
+{
+    border-radius:       6px;
+    background-image:    url("http://dinik.cz/plug/herkul.gif");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+/* End DenisJ */
