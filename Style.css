@@ -426,7 +426,7 @@ i.icon.icon-chat-subscriber {
 /* End TegBot */
 
 /* FirennCZ */
-#user-rollover.id-21723824 .badge-box > i.bdg
+#user-rollover.id-14171432 .badge-box > i.bdg
 {
     border-radius:       6px;
     background-image:    url("http://dinik.cz/plug/firenn.gif");
@@ -434,7 +434,7 @@ i.icon.icon-chat-subscriber {
     background-repeat:   no-repeat;
     background-position: center center;
 }
-[data-cid^="21723824"] .badge-box .bdg
+[data-cid^="14171432"] .badge-box .bdg
 {
     border-radius:       6px;
     background-image:    url("http://dinik.cz/plug/firenn.gif");
