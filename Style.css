@@ -391,7 +391,7 @@ i.icon.icon-chat-subscriber {
 #user-rollover.id-5726279 .badge-box > i.bdg
 {
     border-radius:       6px;
-    background-image:    url("http://dinik.cz/plug/herkul.gif");
+    background-image:    url("http://dinik.cz/plug/denisj.jpg");
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
@@ -399,9 +399,47 @@ i.icon.icon-chat-subscriber {
 [data-cid^="5726279"] .badge-box .bdg
 {
     border-radius:       6px;
-    background-image:    url("http://dinik.cz/plug/herkul.gif");
+    background-image:    url("http://dinik.cz/plug/denisj.jpg");
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
 }
 /* End DenisJ */
+
+/* TegBot */
+#user-rollover.id-21723824 .badge-box > i.bdg
+{
+    border-radius:       6px;
+    background-image:    url("http://dinik.cz/plug/tegbot.gif");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+[data-cid^="21723824"] .badge-box .bdg
+{
+    border-radius:       6px;
+    background-image:    url("http://dinik.cz/plug/tegbot.gif");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+/* End TegBot */
+
+/* FirennCZ */
+#user-rollover.id-21723824 .badge-box > i.bdg
+{
+    border-radius:       6px;
+    background-image:    url("http://dinik.cz/plug/firenn.gif");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+[data-cid^="21723824"] .badge-box .bdg
+{
+    border-radius:       6px;
+    background-image:    url("http://dinik.cz/plug/firenn.gif");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+/* End FirennCZ */
