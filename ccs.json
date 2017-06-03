@@ -40,6 +40,34 @@
         "silversubscriber": null
     },
     "emotes": {
-    	"emote_name": null
-    }
+    	"wake": "http://i.imgur.com/4lAGVIv.png"
+    },
+    "autocomplete": {
+        "!join": 0,
+        "!love": 0,
+        "!leave": 0,
+        "!rip": 0,
+        "!swaprequest": 0,
+        "!rules": 0,
+        "!duel": 0,
+        "!dc": 0,
+        "!songinfo": 0,
+        "!link": 0,
+        "!reward": 0,
+        "!ping": 0,
+        "!link": 0,
+        "!history": 0,
+        "!clearchat": 2,
+        "!roulette": 2,
+        "!russianroulette": 2,
+        "!lottery": 2,
+        "!lock": 2,
+        "!unlock": 2,
+        "!lockskip": 2,
+        "!swap": 2,
+        "!status": 2,
+        "!movequeue": 2,
+        "!skip": 2,
+        "!blacklist": 2
+}
 }
