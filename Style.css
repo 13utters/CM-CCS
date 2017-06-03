@@ -330,66 +330,6 @@ i.icon.icon-chat-subscriber {
 #dj-button.is-leave .left, #dj-button.is-quit .left {
     background: linear-gradient(to bottom,rgba(244, 107, 64, 1),rgba(244, 107, 48, 1) 100%) !important;
 }
-.message.role-bouncer, .emote.role-bouncer {
-    border-left: crimson 2px solid;
-}
-.message.role-host, .emote.role-host {
-    border-left: #3083FF 2px solid;
-}
-.message.role-cohost, .emote.role-cohost {
-    border-left: #3083FF 2px solid;
-}
-.message.role-dj, .emote.role-dj {
-    border-left: #ac76ff 2px solid;
-}
-.message.role-manager, .emote.role-manager {
-    border-left: #FF3030 2px solid;
-}
-#user-rollover.role-host .role span {
-    color:#3083FF !important;
-}
-#user-rollover.role-cohost .role span {
-    color:#3083FF !important;
-}
-#user-rollover.role-manager .role span {
-    color:#FF3030 !important;
-}
-#user-rollover.role-bouncer .role span {
-    color:crimson !important;
-}
-#user-rollover.role-dj .role span {
-    color:#ac76ff !important;
-}
-.role-host .from .un {
-    color:#3083FF !important;
-}
-.role-cohost .from .un {
-    color:#3083FF !important;
-}
-.role-manager .from .un {
-    color:#FF3030 !important;
-}
-.role-bouncer .from .un {
-    color:crimson !important;
-}
-.role-dj .from .un {
-    color:#ac76ff !important;
-}
-.role-host .name {
-    color:#3083FF !important;
-}
-.role-cohost .name {
-    color:#3083FF !important;
-}
-.role-manager .name {
-    color:#FF3030 !important;
-}
-.role-bouncer .name {
-    color:crimson !important;
-}
-.role-dj .name {
-    color:#ac76ff !important;
-}
 /* Diník */
 #user-rollover.id-5383370 .badge-box > i.bdg
 {
