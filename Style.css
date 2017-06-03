@@ -3,6 +3,25 @@
     width: 500% !important;
     height: 500% !important;
 }
+/* Rainbow Diník */
+#user-rollover.id-5383370 .username:hover,
+#chat [data-cid^="5383370-"] span.un.clickable:hover {
+animation:rainbow 10s infinite;
+}
+@keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
+/* End Rainbow Diník */
 #footer {
 	background: linear-gradient(to bottom,rgba(0, 0, 0, 0.45) 0,rgba(0, 0, 0, 0.75) 100%);
 }
