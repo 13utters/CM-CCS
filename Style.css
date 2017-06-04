@@ -353,6 +353,8 @@ i.icon.icon-chat-subscriber {
     font-style: normal;
     font-weight: normal;
     color: rgb(172, 118, 255);
+}
+#chat .emote {
     border-left: #AC76FF 2px solid;
 }
 .message.role-bouncer, .emote.role-bouncer {
