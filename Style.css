@@ -351,7 +351,7 @@ i.icon.icon-chat-subscriber {
 }
 #chat .emote .text {
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     color: rgb(172, 118, 255);
 }
 #chat .emote {
