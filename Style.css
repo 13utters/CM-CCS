@@ -1,5 +1,5 @@
 .room-background {
-    background: url(http://www.dinik.cz/plug/background.png) no-repeat !important;
+    background: url(https://dinikcz.github.io/plug/background.png) no-repeat !important;
     width: 500% !important;
     height: 500% !important;
 }
@@ -59,31 +59,31 @@ animation:rainbow 10s infinite;
 	color:#3083FF;
 }
 i.icon.icon-chat-host {
-	background : url(http://www.dinik.cz/plug/SM-Host.png);
+	background : url(https://dinikcz.github.io/plug/SM-Host.png);
 }
 .group.manager {
 	color:#FF3030;
 }
 i.icon.icon-chat-manager {
-	background : url(http://www.dinik.cz/plug/SM-Manager.png);
+	background : url(https://dinikcz.github.io/plug/SM-Manager.png);
 }
 .group.bouncer {
 	color:crimson;
 }
 i.icon.icon-chat-bouncer {
-	background : url(http://www.dinik.cz/plug/SM-Bouncer.png);
+	background : url(https://dinikcz.github.io/plug/SM-Bouncer.png);
 }
 .group.dj {
 	color:#ac76ff;
 }
 i.icon.icon-chat-dj {
-	background : url(http://www.dinik.cz/plug/SM-Resdj.png);
+	background : url(https://dinikcz.github.io/plug/SM-Resdj.png);
 }
 i.icon.icon-chat-subscriber {
-	background : url(http://www.dinik.cz/Subscriber1.png);
+	background : url(https://dinikcz.github.io/Subscriber1.png);
 }
 #user-rollover .meta.subscriber .status i {
-    background : url(http://www.dinik.cz/Subscriber1.png);
+    background : url(https://dinikcz.github.io/Subscriber1.png);
 }
 #user-rollover .info .level .label {
 	color:#EFEFEF;
@@ -156,7 +156,7 @@ i.icon.icon-chat-subscriber {
 	box-shadow: inset 0 0 10px hsl(280,100%,40%) !important;
 }
 #meh i.icon {
-    background-image: url("http://dinik.cz/plug/meh_new.png");
+    background-image: url("https://dinikcz.github.io/plug/meh_new.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -168,7 +168,7 @@ i.icon.icon-chat-subscriber {
     background-position: center center;
 }
 #grab i.icon {
-    background-image: url("http://dinik.cz/plug/grab_new.png");
+    background-image: url("https://dinikcz.github.io/plug/grab_new.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -377,7 +377,7 @@ i.icon.icon-chat-subscriber {
 #user-rollover.id-5383370 .badge-box > i.bdg
 {
     border-radius:       6px;
-    background-image:    url("http://dinik.cz/plug/dinikcz.gif");
+    background-image:    url("https://dinikcz.github.io/plug/dinikcz.gif");
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
@@ -385,7 +385,7 @@ i.icon.icon-chat-subscriber {
 [data-cid^="5383370"] .badge-box .bdg
 {
     border-radius:       6px;
-    background-image:    url("http://dinik.cz/plug/dinikcz.gif");
+    background-image:    url("https://dinikcz.github.io/plug/dinikcz.gif");
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
@@ -396,7 +396,7 @@ i.icon.icon-chat-subscriber {
 #user-rollover.id-13994689 .badge-box > i.bdg
 {
     border-radius:       6px;
-    background-image:    url("http://dinik.cz/plug/pandis.gif");
+    background-image:    url("https://dinikcz.github.io/plug/pandis.gif");
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
@@ -404,7 +404,7 @@ i.icon.icon-chat-subscriber {
 [data-cid^="13994689"] .badge-box .bdg
 {
     border-radius:       6px;
-    background-image:    url("http://dinik.cz/plug/pandis.gif");
+    background-image:    url("https://dinikcz.github.io/plug/pandis.gif");
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
@@ -415,7 +415,7 @@ i.icon.icon-chat-subscriber {
 #user-rollover.id-26869640 .badge-box > i.bdg
 {
     border-radius:       6px;
-    background-image:    url("http://dinik.cz/plug/herkul.gif");
+    background-image:    url("https://dinikcz.github.io/plug/herkul.gif");
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
@@ -423,7 +423,7 @@ i.icon.icon-chat-subscriber {
 [data-cid^="26869640"] .badge-box .bdg
 {
     border-radius:       6px;
-    background-image:    url("http://dinik.cz/plug/herkul.gif");
+    background-image:    url("https://dinikcz.github.io/plug/herkul.gif");
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
@@ -434,7 +434,7 @@ i.icon.icon-chat-subscriber {
 #user-rollover.id-5726279 .badge-box > i.bdg
 {
     border-radius:       6px;
-    background-image:    url("http://dinik.cz/plug/denisj.jpg");
+    background-image:    url("https://dinikcz.github.io/plug/denisj.jpg");
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
@@ -442,7 +442,7 @@ i.icon.icon-chat-subscriber {
 [data-cid^="5726279"] .badge-box .bdg
 {
     border-radius:       6px;
-    background-image:    url("http://dinik.cz/plug/denisj.jpg");
+    background-image:    url("https://dinikcz.github.io/plug/denisj.jpg");
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
@@ -453,7 +453,7 @@ i.icon.icon-chat-subscriber {
 #user-rollover.id-21723824 .badge-box > i.bdg
 {
     border-radius:       6px;
-    background-image:    url("http://dinik.cz/plug/tegbot.gif");
+    background-image:    url("https://dinikcz.github.io/plug/tegbot.gif");
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
@@ -461,7 +461,7 @@ i.icon.icon-chat-subscriber {
 [data-cid^="21723824"] .badge-box .bdg
 {
     border-radius:       6px;
-    background-image:    url("http://dinik.cz/plug/tegbot.gif");
+    background-image:    url("https://dinikcz.github.io/plug/tegbot.gif");
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
@@ -472,7 +472,7 @@ i.icon.icon-chat-subscriber {
 #user-rollover.id-14171432 .badge-box > i.bdg
 {
     border-radius:       6px;
-    background-image:    url("http://dinik.cz/plug/firenn.gif");
+    background-image:    url("https://dinikcz.github.io/plug/firenn.gif");
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
@@ -480,7 +480,7 @@ i.icon.icon-chat-subscriber {
 [data-cid^="14171432"] .badge-box .bdg
 {
     border-radius:       6px;
-    background-image:    url("http://dinik.cz/plug/firenn.gif");
+    background-image:    url("https://dinikcz.github.io/plug/firenn.gif");
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
