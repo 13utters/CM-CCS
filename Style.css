@@ -367,25 +367,6 @@ i.icon.icon-chat-dj {
     border-left: #FF3030 2px solid;
 }
 
-/* Diník */
-#user-rollover.id-5383370 .badge-box > i.bdg
-{
-    border-radius:       6px;
-    background-image:    url("https://dinikcz.github.io/CM-CCS/plug/dinikcz.gif");
-    background-size:     cover;
-    background-repeat:   no-repeat;
-    background-position: center center;
-}
-[data-cid^="5383370"] .badge-box .bdg
-{
-    border-radius:       6px;
-    background-image:    url("https://dinikcz.github.io/CM-CCS/plug/dinikcz.gif");
-    background-size:     cover;
-    background-repeat:   no-repeat;
-    background-position: center center;
-}
-/* End Diník */
-
 /* Pandis */
 #user-rollover.id-13994689 .badge-box > i.bdg
 {
