@@ -1,41 +1,19 @@
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom,rgba(0, 0, 0, 0.45) 0,rgba(0, 0, 0, 0.75) 100%) !important;
+}
 .room-background {
     background: url(https://dinikcz.github.io/CM-CCS/plug/background.png) no-repeat !important;
     width: 500% !important;
     height: 500% !important;
 }
-/* Rainbow Diník */
-#user-rollover.id-5383370 .username:hover,
-#chat [data-cid^="5383370"] span.un.clickable:hover {
-animation:rainbow 10s infinite;
-}
-@keyframes rainbow {
-0% {color: #ff0000;}
-10% {color: #ff8000;}
-20% {color: #ffff00;}
-30% {color: #80ff00;}
-40% {color: #00ff00;}
-50% {color: #00ff80;}
-60% {color: #00ffff;}
-70% {color: #0080ff;}
-80% {color: #0000ff;}
-90% {color: #8000ff;}
-100% {color: #ff0080;}
-}
-/* End Rainbow Diník */
 #footer {
 	background: linear-gradient(to bottom,rgba(0, 0, 0, 0.45) 0,rgba(0, 0, 0, 0.75) 100%);
-}
-#footer-user .info.showing .meta .bar .progress {
-	background:#2D9400;
 }
 #footer-user .info.showing .meta .level .label {
 	color:#EFEFEF;
 }
 #footer-user .info.showing .meta .level .value {
 	color:#EFEFEF;
-}
-#footer-user .info.is-staff.showing .name {
-	color: #0EB006;
 }
 #footer .shop-button {
 	background: linear-gradient(to bottom,rgba(0, 0, 0, 0.45) 0,rgba(0, 0, 0, 0.75) 100%);
@@ -45,9 +23,11 @@ animation:rainbow 10s infinite;
 }
 #chat {
 	background: linear-gradient(to bottom,rgba(0, 0, 0, 0.20) 10%,rgba(0, 0, 0, 0.65) 100%);
+    transition: all 0.6s;
 }
 #chat .emote, #chat .mention, #chat .message, #chat .moderation, #chat .skip, #chat .system, #chat .update, #chat .welcome, #chat .user-action {
 	background: linear-gradient(to bottom,rgba(0, 0, 0, 0.20) 10%,rgba(0, 0, 0, 0.65) 100%);
+    transition: all 0.6s;
 }
 #room .app-right {
 	background: linear-gradient(to left,rgba(0, 0, 0, 0.20) 10%,rgba(0, 0, 0, 0.65) 100%);
@@ -81,9 +61,6 @@ i.icon.icon-chat-dj {
 }
 #user-rollover .info .level .label {
 	color:#EFEFEF;
-}
-#user-rollover.is-staff .info .role span {
-	color: #0EB006;
 }
 #vote {
 	box-shadow: 0 0 10px #000;
@@ -133,31 +110,66 @@ i.icon.icon-chat-dj {
 	box-shadow: inset 0 0 5px hsla(0,0%,100%,.3);
 }
 #woot {
-	border-radius: 30px 0 0 30px;
-	background: linear-gradient(to bottom,rgba(0, 0, 0, 0.45) 0,rgba(0, 0, 0, 0.75) 100%) !important;
-	box-shadow: inset 0 0 10px hsl(0,0%,40%) !important;
+  border-radius: 5px 0 0 5px;
+    background: linear-gradient(to bottom,rgba(0, 0, 0, 0.45) 0,rgba(0, 0, 0, 0.75) 100%) !important;
+    box-shadow: inset 0 0 10px hsl(0,0%,40%) !important;
+}
+
+#meh {
+  border-radius: 0 5px 5px 0;
+        background: linear-gradient(to bottom,rgba(0, 0, 0, 0.45) 0,rgba(0, 0, 0, 0.75) 100%) !important;
+    box-shadow: inset 0 0 10px hsl(0,0%,40%) !important;
+}
+#grab {
+        background: linear-gradient(to bottom,rgba(0, 0, 0, 0.45) 0,rgba(0, 0, 0, 0.75) 100%) !important;
+    box-shadow: inset 0 0 10px hsl(0,0%,40%) !important;
 }
 #woot.selected, #woot-rs .title {
 	background: linear-gradient(135deg, hsla(90,80%,50%,.3), hsla(90,80%,30%,.3)) !important;
 	box-shadow: inset 0 0 10px hsl(70,100%,40%) !important;
 }
-#grab {
-	background: linear-gradient(to bottom,rgba(0, 0, 0, 0.45) 0,rgba(0, 0, 0, 0.75) 100%) !important;
-	box-shadow: inset 0 0 10px hsl(0,0%,40%) !important;
-}
 #grab.selected, #grab-rs .title {
 	background: linear-gradient(hsla(270,70%,50%,.3), hsla(265,70%,30%,.3)) !important;
 	box-shadow: inset 0 0 10px hsl(280,100%,40%) !important;
 }
-#meh {
-	background: linear-gradient(to bottom,rgba(0, 0, 0, 0.45) 0,rgba(0, 0, 0, 0.75) 100%) !important;
-	box-shadow: inset 0 0 10px hsl(0,0%,40%) !important;
-	border-radius: 0 30px 30px 0;
-	margin-right: 0 !important;
-}
 #meh.selected, #meh-rs .title {
 	background: linear-gradient(225deg, hsla(5,80%,50%,.3), hsla(0,80%,40%,.3)) !important;
 	box-shadow: inset 0 0 10px hsl(15,100%,50%) !important;
+}
+#mem .bottom, #meh.crowd-response.disabled.active .bottom {
+  border-radius: 0 0 5px 0 !important;
+}
+
+#woot .bottom, #woot.crowd-response.disabled.active .bottom {
+  border-radius: 0 0 0 5px !important;
+}
+
+#vote .crowd-response {
+  background-color: var(--transparent-back);
+}
+
+#vote .crowd-response.disabled .bottom {
+  background: rgba(0,0,0,0);
+}
+
+#vote .crowd-response.selected {
+  box-shadow: inset 0 0 0 rgba(0,0,0,0.0)
+}
+
+#woot .bottom, #grab .bottom, #meh .bottom {
+  background: rgba(0,0,0,0);
+}
+
+#woot .bottom {
+  background: transparent !important;
+}
+
+#grab .bottom {
+  background: transparent !important;
+}
+
+#meh .bottom {
+  background: transparent !important;
 }
 #dj-button.is-wait, #dj-button.is-leave, #dj-button.is-quit, #dj-button.is-locked, #dj-button.is-full {
 	opacity: 0.85;
@@ -175,14 +187,6 @@ i.icon.icon-chat-dj {
 }
 .torch {
 	visibility: hidden;
-}
-.is-staff .name {
-	color: #00FFF7;
-    font-weight: normal;
-}
-#chat .from.staff .un {
-	color: #00FFF7;
-    font-weight: normal;
 }
 .user-content.profile .meta.is-staff .role span {
 	color: #00FFF7;
@@ -207,18 +211,13 @@ i.icon.icon-chat-dj {
 #history-button {
 	background: none;
 }
-.header-panel-button.selected {
-	background: linear-gradient(to bottom,rgba(0, 0, 0, 1) 0,rgba(61, 61, 61, 1) 100%);
-}
 #user-rollover {
-	border-radius: 30px 30px 0 0;
-	background: linear-gradient(to bottom,rgba(0, 0, 0, 0.45) 0,rgba(0, 0, 0, 0.75) 100%);
+	background: rgba(0, 0, 0, 0.75);
 	box-shadow: 0 0 10px #000;
 }
 #user-rollover .info {
-	background: linear-gradient(rgba(230,255,0,0.45), rgba(255,179,0,0.45));
+	background: rgba(36,36,36,0.45);
 	box-shadow: 0px -2px 10px -1px #000;
-	border-radius: 50% 50% 0 0 !important;
 }
 .thumb {
 	background: hsla(210,10%,10%,.4);
@@ -325,14 +324,6 @@ i.icon.icon-chat-dj {
 #dj-button.is-leave .left, #dj-button.is-quit .left {
     background: linear-gradient(to bottom,rgba(244, 107, 64, 1),rgba(244, 107, 48, 1) 100%) !important;
 }
-#chat .emote .text {
-    font-style: normal;
-    font-weight: bold;
-    color: rgb(172, 118, 255);
-}
-#chat .emote {
-    border-left: #AC76FF 2px solid;
-}
 .message.role-bouncer, .emote.role-bouncer {
     border-left: crimson 2px solid;
 }
@@ -348,98 +339,51 @@ i.icon.icon-chat-dj {
 .message.role-manager, .emote.role-manager {
     border-left: #FF3030 2px solid;
 }
-
-/* Pandis */
-#user-rollover.id-13994689 .badge-box > i.bdg
-{
-    border-radius:       6px;
-    background-image:    url("https://dinikcz.github.io/CM-CCS/plug/pandis.gif");
-    background-size:     cover;
-    background-repeat:   no-repeat;
-    background-position: center center;
+#user-rollover.role-host .role span {
+    color:#3083FF !important;
 }
-[data-cid^="13994689"] .badge-box .bdg
-{
-    border-radius:       6px;
-    background-image:    url("https://dinikcz.github.io/CM-CCS/plug/pandis.gif");
-    background-size:     cover;
-    background-repeat:   no-repeat;
-    background-position: center center;
+#user-rollover.role-cohost .role span {
+    color:#3083FF !important;
 }
-/* End Pandis */
-
-/* Herkul */
-#user-rollover.id-26869640 .badge-box > i.bdg
-{
-    border-radius:       6px;
-    background-image:    url("https://dinikcz.github.io/CM-CCS/plug/herkul.gif");
-    background-size:     cover;
-    background-repeat:   no-repeat;
-    background-position: center center;
+#user-rollover.role-manager .role span {
+    color:#FF3030 !important;
 }
-[data-cid^="26869640"] .badge-box .bdg
-{
-    border-radius:       6px;
-    background-image:    url("https://dinikcz.github.io/CM-CCS/plug/herkul.gif");
-    background-size:     cover;
-    background-repeat:   no-repeat;
-    background-position: center center;
+#user-rollover.role-bouncer .role span {
+    color:crimson !important;
 }
-/* End Herkul */
-
-/* DenisJ */
-#user-rollover.id-5726279 .badge-box > i.bdg
-{
-    border-radius:       6px;
-    background-image:    url("https://dinikcz.github.io/CM-CCS/plug/denisj.jpg");
-    background-size:     cover;
-    background-repeat:   no-repeat;
-    background-position: center center;
+#user-rollover.role-dj .role span {
+    color:#ac76ff !important;
 }
-[data-cid^="5726279"] .badge-box .bdg
-{
-    border-radius:       6px;
-    background-image:    url("https://dinikcz.github.io/CM-CCS/plug/denisj.jpg");
-    background-size:     cover;
-    background-repeat:   no-repeat;
-    background-position: center center;
+.role-host .from .un {
+    color:#3083FF !important;
 }
-/* End DenisJ */
-
-/* TegBot */
-#user-rollover.id-21723824 .badge-box > i.bdg
-{
-    border-radius:       6px;
-    background-image:    url("https://dinikcz.github.io/CM-CCS/plug/tegbot.gif");
-    background-size:     cover;
-    background-repeat:   no-repeat;
-    background-position: center center;
+.role-cohost .from .un {
+    color:#3083FF !important;
 }
-[data-cid^="21723824"] .badge-box .bdg
-{
-    border-radius:       6px;
-    background-image:    url("https://dinikcz.github.io/CM-CCS/plug/tegbot.gif");
-    background-size:     cover;
-    background-repeat:   no-repeat;
-    background-position: center center;
+.role-manager .from .un {
+    color:#FF3030 !important;
 }
-/* End TegBot */
-
-/* FirennCZ */
-#user-rollover.id-14171432 .badge-box > i.bdg
-{
-    border-radius:       6px;
-    background-image:    url("https://dinikcz.github.io/CM-CCS/plug/firenn.gif");
-    background-size:     cover;
-    background-repeat:   no-repeat;
-    background-position: center center;
+.role-bouncer .from .un {
+    color:crimson !important;
 }
-[data-cid^="14171432"] .badge-box .bdg
-{
-    border-radius:       6px;
-    background-image:    url("https://dinikcz.github.io/CM-CCS/plug/firenn.gif");
-    background-size:     cover;
-    background-repeat:   no-repeat;
-    background-position: center center;
+.role-dj .from .un {
+    color:#ac76ff !important;
 }
-/* End FirennCZ */
+.role-host .name {
+    color:#3083FF !important;
+}
+.role-cohost .name {
+    color:#3083FF !important;
+}
+.role-manager .name {
+    color:#FF3030 !important;
+}
+.role-bouncer .name {
+    color:crimson !important;
+}
+.role-dj .name {
+    color:#ac76ff !important;
+}
+#friends-button .request-count {
+    background: #0075C8 !important;
+}
