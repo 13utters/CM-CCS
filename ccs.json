@@ -2,7 +2,7 @@
     "room": "LaLaLanders",
     "author": "Memento Mori",
     "icon": null,
-    "css": "https://13utters.github.io/CM-CCS/Style.css",
+    "css": "https://raw.githubusercontent.com/13utters/CM-CCS/master/Style.css",
     "rules": {
         "allowAutorespond": true,
         "allowAutowoot": true,
