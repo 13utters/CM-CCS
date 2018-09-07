@@ -2,7 +2,7 @@
     background: linear-gradient(to bottom,rgba(0, 0, 0, 0.45) 0,rgba(0, 0, 0, 0.75) 100%) !important;
 }
 .room-background {
-    background: url(https://dinikcz.github.io/CM-CCS/plug/background.png) no-repeat !important;
+    background: url(https://13utters.github.io/CM-CCS/plug/background.png) no-repeat !important;
     width: 500% !important;
     height: 500% !important;
 }
@@ -39,25 +39,25 @@
 	color:#3083FF;
 }
 i.icon.icon-chat-host {
-	background : url(https://dinikcz.github.io/CM-CCS/plug/SM-Host.png);
+	background : url(https://13utters.github.io/CM-CCS/plug/SM-Host.png);
 }
 .group.manager {
 	color:#FF3030;
 }
 i.icon.icon-chat-manager {
-	background : url(https://dinikcz.github.io/CM-CCS/plug/SM-Manager.png);
+	background : url(https://13utters.github.io/CM-CCS/plug/SM-Manager.png);
 }
 .group.bouncer {
 	color:crimson;
 }
 i.icon.icon-chat-bouncer {
-	background : url(https://dinikcz.github.io/CM-CCS/plug/SM-Bouncer.png);
+	background : url(https://13utters.github.io/CM-CCS/plug/SM-Bouncer.png);
 }
 .group.dj {
 	color:#ac76ff;
 }
 i.icon.icon-chat-dj {
-	background : url(https://dinikcz.github.io/CM-CCS/plug/SM-Resdj.png);
+	background : url(https://13utters.github.io/CM-CCS/plug/SM-Resdj.png);
 }
 #user-rollover .info .level .label {
 	color:#EFEFEF;
